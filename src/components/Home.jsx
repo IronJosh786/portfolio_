@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import HeroImage from '../assets/HeroImage.jpg'
 
 export default function Home() {
     return(
         <div className="flex flex-col gap-4 border-l-2 border-pink-700 px-6">
-            <img src="src\assets\HeroImage.jpg" alt="Hero Image" className=" h-40 w-40 md:h-60 md:w-60 rounded-full"/>
+            <img src={HeroImage} alt="Hero Image" className=" h-40 w-40 md:h-60 md:w-60 rounded-full"/>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">Hi 👋 I'm Faizan</h2>
             <h3 className="text-xl md:text-3xl font-medium tracking-tighter"><span className="font-bold text-pink-700">Frontend Web Developer</span> from Mumbai.</h3>
             <p className="max-w-[60ch] text-base md:text-lg">I'm a <span className="text-pink-700">UI/UX</span> enthusiast dedicated to crafting visually stunning, pixel-perfect, and interactive websites. My goal is to create seamless user experiences, bringing digital visions to life. With a strong foundation in frontend technologies, I'm eager to explore new tools and techniques, delivering innovative solutions.</p>
