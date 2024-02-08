@@ -11,6 +11,15 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: 'ecommerce',
+        element: <ProjectTemplate 
+                    heading={'Ecommerce Shop'} 
+                    description={'A dynamic Ecommerce Application built using React and JavaScript. It provides a modern and responsive design for optimal user interaction across various devices. The application leverages the Context API for streamlined state management.'} 
+                    site={'https://frontend-clothing-shop.netlify.app/'} 
+                    code={'https://github.com/IronJosh786/Ecommerce-Frontend-App'}
+                  />
+      },
+      {
         path: 'todo',
         element: <ProjectTemplate 
                     heading={'To Do'} 
@@ -27,15 +36,6 @@ const router = createBrowserRouter([
                   site={'https://guileless-bubblegum-5258c0.netlify.app/'} 
                   code={'https://github.com/IronJosh786/Currency-Converter'}
                 />
-      },
-      {
-        path: 'simongame',
-        element: <ProjectTemplate 
-                    heading={'Simon Game'} 
-                    description={'Embark on the captivating Simon Game, an immersive memory challenge that spans multiple levels, each unveiling a new layer of complexity. Powered by HTML, CSS, and JavaScript, this engaging journey allows you to advance through higher levels by accurately replicating sequences of colors and sounds, unlocking additional challenges along the way.'} 
-                    site={'https://ironjosh786.github.io/Simon-Game/'} 
-                    code={'https://github.com/IronJosh786/Simon-Game'}
-                  />
       },
       {
         path: 'skills',
