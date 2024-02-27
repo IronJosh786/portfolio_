@@ -11,6 +11,15 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: 'pagepalette',
+        element: <ProjectTemplate 
+                    heading={'Page Palette'} 
+                    description={'A dynamic web application skillfully crafted with React and JavaScript. Uncover an extensive collection of books fetched from the Google Books API. Seamlessly explore genres, utilize the search feature to find your next read, and effortlessly bookmark favorites for later. Delve into detailed views for an informed and delightful reading experience.'} 
+                    site={'https://page-palette.netlify.app/'} 
+                    code={'https://github.com/IronJosh786/PagePalette'}
+                  />
+      },
+      {
         path: 'ecommerce',
         element: <ProjectTemplate 
                     heading={'Ecommerce Shop'} 
@@ -27,15 +36,6 @@ const router = createBrowserRouter([
                     site={'https://superb-dieffenbachia-c58623.netlify.app/'} 
                     code={'https://github.com/IronJosh786/Todo-Redux-Toolkit'}
                   />
-      },
-      {
-        path: 'currencyconverter',
-        element: <ProjectTemplate 
-                  heading={'Currency Converter'} 
-                  description={'A dynamic web application crafted with React. This tool empowers users to seamlessly convert between various currencies, leveraging real-time exchange rates sourced from the Currency API. The user-friendly interface ensures a smooth and intuitive experience, while dynamic updates guarantee accuracy by fetching real-time data from the Currency API. Effortlessly navigate the world of currency exchange with this responsive and feature-rich Currency Converter.'} 
-                  site={'https://guileless-bubblegum-5258c0.netlify.app/'} 
-                  code={'https://github.com/IronJosh786/Currency-Converter'}
-                />
       },
       {
         path: 'skills',
