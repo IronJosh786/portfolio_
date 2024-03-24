@@ -50,7 +50,7 @@ const App = () => {
             </Link>
             <Link
               className="cursor-pointer text-sm md:text-base bg-white text-[#1D1D20] p-1 rounded-full font-medium duration-300 ease-in-out hover:ring ring-pink-700 ring-opacity-50 hover:bg-[#1D1D20] hover:text-pink-700"
-              to="https://drive.google.com/file/d/1q6nUUur-HpLyPGzOcBXD3Cn0ulRGAhKP/view?usp=sharing "
+              to="https://drive.google.com/file/d/1lrDiU4V4zT6B8fdAKXGvjsm1LQ8zIJuY/view?usp=sharing"
               target="_blank"
             >
               Resume
@@ -71,6 +71,16 @@ const App = () => {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
+                  to={"/money-transfer"}
+                >
+                  Money Transfer
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
+                      isActive ? "text-pink-700" : "text-white"
+                    }`
+                  }
                   to={"/youtube-backend"}
                 >
                   Youtube
@@ -84,16 +94,6 @@ const App = () => {
                   to={"/pagepalette"}
                 >
                   Page Palette
-                </NavLink>
-                <NavLink
-                  className={({ isActive }) =>
-                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700" : "text-white"
-                    }`
-                  }
-                  to={"/ecommerce"}
-                >
-                  Ecommerce App
                 </NavLink>
               </ul>
             </div>

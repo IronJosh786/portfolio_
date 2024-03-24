@@ -11,6 +11,31 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: "money-transfer",
+        element: (
+          <ProjectTemplate
+            heading={"Money Transfer"}
+            description={
+              "Harnessing the MERN stack, this application combines MongoDB, Express.js, React.js, and Node.js for a complete full-stack experience. React.js powers the frontend, providing dynamic interfaces and smooth user interactions. Meanwhile, Node.js and Express.js handle the backend operations with MongoDB ensuring robust data storage. Seamlessly integrated, this project delivers a sophisticated solution for managing transactions, multimedia assets, and user interactions, promising a seamless and intuitive platform."
+            }
+            site={"https://money-transfer-two.vercel.app/"}
+            code={"https://github.com/IronJosh786/moneyTransfer"}
+            tech={[
+              "MongoDB",
+              "Mongoose",
+              "Express.js",
+              "React.js",
+              "Node.js",
+              "Bcrypt",
+              "JWT",
+              "Cloudinary",
+              "Multer",
+              "Aggregation Pipeline",
+            ]}
+          />
+        ),
+      },
+      {
         path: "youtube-backend",
         element: (
           <ProjectTemplate
@@ -48,25 +73,6 @@ const router = createBrowserRouter([
               "React Router DOM",
               "Local Storage",
               "Google Books API",
-              "Tailwind CSS",
-            ]}
-          />
-        ),
-      },
-      {
-        path: "ecommerce",
-        element: (
-          <ProjectTemplate
-            heading={"Ecommerce Shop"}
-            description={
-              "A dynamic Ecommerce Application built using React and JavaScript. It provides a modern and responsive design for optimal user interaction across various devices. The application leverages the Context API for streamlined state management."
-            }
-            site={"https://frontend-clothing-shop.netlify.app/"}
-            code={"https://github.com/IronJosh786/Ecommerce-Frontend-App"}
-            tech={[
-              "React.js",
-              "React Router DOM",
-              "Fake Store API",
               "Tailwind CSS",
             ]}
           />
