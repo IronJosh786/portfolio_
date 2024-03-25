@@ -18,8 +18,8 @@ const router = createBrowserRouter([
             description={
               "Harnessing the MERN stack, this application combines MongoDB, Express.js, React.js, and Node.js for a complete full-stack experience. React.js powers the frontend, providing dynamic interfaces and smooth user interactions. Meanwhile, Node.js and Express.js handle the backend operations with MongoDB ensuring robust data storage. Seamlessly integrated, this project delivers a sophisticated solution for managing transactions, multimedia assets, and user interactions, promising a seamless and intuitive platform."
             }
-            site={"https://money-transfer-two.vercel.app/"}
-            code={"https://github.com/IronJosh786/moneyTransfer"}
+            site={"https://mern-money-transfer.onrender.com/"}
+            code={"https://github.com/IronJosh786/MERN-Money-Transfer"}
             tech={[
               "MongoDB",
               "Mongoose",

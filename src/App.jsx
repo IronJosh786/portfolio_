@@ -50,7 +50,7 @@ const App = () => {
             </Link>
             <Link
               className="cursor-pointer text-sm md:text-base bg-white text-[#1D1D20] p-1 rounded-full font-medium duration-300 ease-in-out hover:ring ring-pink-700 ring-opacity-50 hover:bg-[#1D1D20] hover:text-pink-700"
-              to="https://drive.google.com/file/d/1lrDiU4V4zT6B8fdAKXGvjsm1LQ8zIJuY/view?usp=sharing"
+              to="https://drive.google.com/file/d/1M7s3HANAnufcc7Zfp5uNEip_CdFvHdge/view?usp=sharing"
               target="_blank"
             >
               Resume
