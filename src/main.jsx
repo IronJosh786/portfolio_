@@ -11,6 +11,33 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: "socialsphere",
+        element: (
+          <ProjectTemplate
+            heading={"Social Sphere"}
+            description={
+              "The application utilizes the MERN stack: MongoDB for scalable data storage, Express.js and Node.js for efficient backend operations, and React.js for dynamic frontend interfaces. Cloudinary seamlessly manages multimedia assets, optimizing storage and delivery. Together, these technologies create an intuitive platform for seamless user interaction and multimedia management."
+            }
+            site={"https://frontend-production-391c.up.railway.app/"}
+            code={"https://github.com/IronJosh786/Social-Media-App"}
+            tech={[
+              "MongoDB",
+              "Mongoose",
+              "Express.js",
+              "React.js",
+              "Node.js",
+              "Bcrypt",
+              "JWT",
+              "Cloudinary",
+              "Multer",
+              "Aggregation Pipeline",
+              "Zod",
+              "DaisyUI",
+            ]}
+          />
+        ),
+      },
+      {
         path: "money-transfer",
         element: (
           <ProjectTemplate
@@ -25,29 +52,6 @@ const router = createBrowserRouter([
               "Mongoose",
               "Express.js",
               "React.js",
-              "Node.js",
-              "Bcrypt",
-              "JWT",
-              "Cloudinary",
-              "Multer",
-              "Aggregation Pipeline",
-            ]}
-          />
-        ),
-      },
-      {
-        path: "youtube-backend",
-        element: (
-          <ProjectTemplate
-            heading={"Youtube Backend"}
-            description={
-              "Built on Node.js and Express.js, this backend project provides a solid foundation for a video content management system. Leveraging MongoDB for data storage and Cloudinary for efficient multimedia asset management, it ensures a scalable and reliable backend infrastructure. Seamlessly handle user authentication, video uploads, likes, comments, and subscriptions. The project focuses on security and performance, utilizing these technologies to create a robust backend for your video platform."
-            }
-            code={"https://github.com/IronJosh786/Backend"}
-            tech={[
-              "MongoDB",
-              "Mongoose",
-              "Express.js",
               "Node.js",
               "Bcrypt",
               "JWT",
