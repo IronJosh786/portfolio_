@@ -38,6 +38,31 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "wingsinprogress",
+        element: (
+          <ProjectTemplate
+            heading={"WingsInProgress"}
+            description={
+              "A sophisticated Next.js application which provides aspiring pilots with a comprehensive platform to manage and track their flight training progress, simplifying tasks such as logging flights, tracking progress, and analyzing performance metrics. It leverages a stack of cutting-edge technologies including NextAuth for secure authentication, MongoDB for flexible data storage, React.js for dynamic user interfaces, and Node.js for powerful backend logic. Implemented with TypeScript for type safety and Zod for data validation."
+            }
+            site={"https://wings-in-progress.vercel.app/"}
+            code={"https://github.com/IronJosh786/WingsInProgress"}
+            tech={[
+              "Next.js",
+              "NextAuth",
+              "MongoDB",
+              "Mongoose",
+              "React.js",
+              "Node.js",
+              "Typescript",
+              "Zod",
+              "Shadcn-UI",
+              "Tailwind CSS",
+            ]}
+          />
+        ),
+      },
+      {
         path: "money-transfer",
         element: (
           <ProjectTemplate
@@ -58,26 +83,6 @@ const router = createBrowserRouter([
               "Cloudinary",
               "Multer",
               "Aggregation Pipeline",
-            ]}
-          />
-        ),
-      },
-      {
-        path: "pagepalette",
-        element: (
-          <ProjectTemplate
-            heading={"Page Palette"}
-            description={
-              "A dynamic web application skillfully crafted with React and JavaScript. Uncover an extensive collection of books fetched from the Google Books API. Seamlessly explore genres, utilize the search feature to find your next read, and effortlessly bookmark favorites for later. Delve into detailed views for an informed and delightful reading experience."
-            }
-            site={"https://page-palette.netlify.app/"}
-            code={"https://github.com/IronJosh786/PagePalette"}
-            tech={[
-              "React.js",
-              "React Router DOM",
-              "Local Storage",
-              "Google Books API",
-              "Tailwind CSS",
             ]}
           />
         ),

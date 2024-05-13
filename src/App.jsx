@@ -5,7 +5,7 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="w-10/12 max-w-6xl m-auto bg-[#1d1d20] h-dvh flex flex-col">
+      <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] h-dvh flex flex-col">
         <div className="flex justify-between items-center">
           <Link
             to={""}
@@ -45,7 +45,7 @@ const App = () => {
               </svg>
             </Link>
             <Link
-              className="cursor-pointer text-sm md:text-base bg-white text-[#1D1D20] p-1 rounded-full font-medium duration-300 ease-in-out hover:ring ring-pink-700 ring-opacity-50 hover:bg-[#1D1D20] hover:text-pink-700"
+              className="cursor-pointer text-sm md:text-base bg-white text-[#0D1117] p-1 rounded-full font-medium duration-300 ease-in-out hover:ring ring-pink-700 ring-opacity-50 hover:bg-[#0D1117] hover:text-pink-700"
               to="https://drive.google.com/file/d/1wOr-glQNvFuiIwcrV_zhOuDsilbHvSX3/view?usp=sharing"
               target="_blank"
             >
@@ -53,7 +53,7 @@ const App = () => {
             </Link>
           </ul>
         </div>
-        <div className="mt-16 lg:mt-0 flex flex-1 flex-col items-start lg:flex-row lg:justify-between lg:items-center">
+        <div className="mt-16 lg:mt-12 flex flex-1 flex-col items-start lg:flex-row lg:justify-between lg:items-center">
           <div className="w-full lg:w-3/4">
             <Outlet />
           </div>
@@ -77,9 +77,9 @@ const App = () => {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
-                  to={"/money-transfer"}
+                  to={"/wingsinprogress"}
                 >
-                  Money Transfer
+                  Wings In Progress
                 </NavLink>
                 <NavLink
                   className={({ isActive }) =>
@@ -87,9 +87,9 @@ const App = () => {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
-                  to={"/pagepalette"}
+                  to={"/money-transfer"}
                 >
-                  Page Palette
+                  Money Transfer
                 </NavLink>
               </ul>
             </div>

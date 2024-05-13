@@ -3,7 +3,7 @@ import HeroImage from "../assets/heroImage.webp";
 
 export default function Home() {
   return (
-    <div className="mt-8 flex flex-col gap-4 border-l-2 border-pink-700 px-6">
+    <div className="flex flex-col gap-4 border-l-2 border-pink-700 px-6">
       <img
         src={HeroImage}
         alt="Hero Image"
