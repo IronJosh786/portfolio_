@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import { Skills, Home, ProjectTemplate } from "./components/index.js";
-import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -41,7 +40,7 @@ const router = createBrowserRouter([
         path: "wingsinprogress",
         element: (
           <ProjectTemplate
-            heading={"WingsInProgress"}
+            heading={"Wings In Progress"}
             description={
               "A sophisticated Next.js application which provides aspiring pilots with a comprehensive platform to manage and track their flight training progress, simplifying tasks such as logging flights, tracking progress, and analyzing performance metrics. It leverages a stack of cutting-edge technologies including NextAuth for secure authentication, MongoDB for flexible data storage, React.js for dynamic user interfaces, and Node.js for powerful backend logic. Implemented with TypeScript for type safety and Zod for data validation."
             }
@@ -56,6 +55,7 @@ const router = createBrowserRouter([
               "Node.js",
               "Typescript",
               "Zod",
+              "React Query",
               "Shadcn-UI",
               "Tailwind CSS",
             ]}

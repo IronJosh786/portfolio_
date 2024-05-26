@@ -1,6 +1,7 @@
-import React from "react";
-import { Link, NavLink, Outlet } from "react-router-dom";
 import "./App.css";
+import React from "react";
+import Logo from "../src/assets/Logo.webp";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const App = () => {
   return (
@@ -8,10 +9,10 @@ const App = () => {
       <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] h-dvh flex flex-col">
         <div className="flex justify-between items-center">
           <Link
-            to={""}
-            className="text-xl md:text-3xl font-bold cursor-pointer mt-2"
+            to={"/"}
+            className="text-xl md:text-3xl font-bold cursor-pointer mt-2 text-pink-700"
           >
-            Faizan
+            <img src={Logo} alt="Logo" className="h-6 w-28 md:h-8 md:w-40" />
           </Link>
           <ul className="flex gap-4 items-center mt-2">
             <Link
@@ -116,7 +117,7 @@ const App = () => {
           </div>
         </div>
         <footer className="tracking-wider p-1 mt-8 text-xs text-center">
-          FAIZAN SHAIKH © 2024
+          FAIZAN SHAIKH © {new Date().getFullYear()}
         </footer>
       </div>
     </>

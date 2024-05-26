@@ -31,12 +31,25 @@ export default function Home() {
         explore new tools and techniques, I am committed to turning ideas into
         reality and creating exceptional digital experiences.
       </p>
-      <button className="flex justify-start">
-        <Link
-          to="mailto: faizanejazshaikh%40gmail%2Ecom"
-          className="font-medium tracking-tighter rounded-full bg-pink-700 text-white p-2 text-base md:text-lg duration-300 shadow-lg shadow-pink-500 hover:-translate-y-1"
-        >
-          Contact Me
+      <button className="flex items-center">
+        <Link id="send_btn" to="mailto: faizanejazshaikh%40gmail%2Ecom">
+          <div className="svg-wrapper-1">
+            <div className="svg-wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  fill="currentColor"
+                  d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <span>Contact Me</span>
         </Link>
       </button>
     </div>

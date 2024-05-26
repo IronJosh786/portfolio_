@@ -3,7 +3,43 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-family: 'Poppins', sans-serif;
-    }
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+#send_btn {
+  font-family: inherit;
+  font-size: 16px;
+  background: #be185d;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#send_btn span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+#send_btn svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+#send_btn:hover {
+  background-color: #84053a;
+}
+
+#send_btn:active {
+  transform: scale(0.95);
 }
