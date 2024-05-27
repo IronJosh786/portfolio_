@@ -2,6 +2,6 @@
 
 This is my personal portfolio website built using React & Tailwind CSS. It showcases my projects, skills, and provides information about me.
 
-## Demo
+## View Live
 
 https://faizanejaz.netlify.app/

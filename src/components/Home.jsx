@@ -24,12 +24,10 @@ export default function Home() {
           passionate developer,
         </span>{" "}
         dedicated to crafting visually stunning, pixel-perfect, and interactive
-        websites. With a strong foundation in both frontend and backend
-        technologies, I specialize in creating seamless user experiences that
-        bring digital visions to life. My skills extend across the entire stack,
-        allowing me to deliver comprehensive and innovative solutions. Eager to
-        explore new tools and techniques, I am committed to turning ideas into
-        reality and creating exceptional digital experiences.
+        websites. With expertise in frontend and backend technologies, I
+        specialize in seamless user experiences, delivering innovative,
+        full-stack solutions. Eager to explore new tools, I turn ideas into
+        reality and create exceptional digital experiences.
       </p>
       <button className="flex items-center">
         <Link id="send_btn" to="mailto: faizanejazshaikh%40gmail%2Ecom">
