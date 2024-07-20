@@ -15,9 +15,9 @@ const router = createBrowserRouter([
           <ProjectTemplate
             heading={"Social Sphere"}
             description={
-              "The application utilizes the MERN stack: MongoDB for scalable data storage, Express.js and Node.js for efficient backend operations, and React.js for dynamic frontend interfaces. Cloudinary seamlessly manages multimedia assets, optimizing storage and delivery. Together, these technologies create an intuitive platform for seamless user interaction and multimedia management."
+              "A sophisticated social media platform enabling users to post, like, comment, follow other users, and many more. Leveraged modern web development technologies including React.js for a dynamic front-end, Node.js/Express.js for efficient back-end operations, and MongoDB for robust data storage. Cloudinary is seamlessly integrated into the application for efficient management of multimedia assets, providing reliable storage, optimization, and delivery."
             }
-            site={"https://frontend-production-391c.up.railway.app/"}
+            site={"https://social-sphere-two.vercel.app/"}
             code={"https://github.com/IronJosh786/Social-Media-App"}
             tech={[
               "MongoDB",

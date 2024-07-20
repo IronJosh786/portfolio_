@@ -46,7 +46,7 @@ const App = () => {
               </svg>
             </Link>
             <Link
-              className="cursor-pointer text-sm md:text-base bg-white text-[#0D1117] p-1 rounded-full font-medium duration-300 ease-in-out hover:ring ring-pink-700 ring-opacity-50 hover:bg-[#0D1117] hover:text-pink-700"
+              className="cursor-pointer text-sm md:text-base bg-white text-[#0D1117] p-1 rounded-full font-medium duration-150 ease-in-out hover:ring ring-pink-700 ring-opacity-50 hover:bg-[#0D1117] hover:text-pink-700"
               to="https://drive.google.com/file/d/1wOr-glQNvFuiIwcrV_zhOuDsilbHvSX3/view?usp=sharing"
               target="_blank"
             >
@@ -65,7 +65,7 @@ const App = () => {
                 <NavLink
                   className={({ isActive }) =>
                     `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700" : "text-white"
+                      isActive ? "text-pink-700 tracking-wide" : "text-white"
                     }`
                   }
                   to={"/socialsphere"}
@@ -75,7 +75,7 @@ const App = () => {
                 <NavLink
                   className={({ isActive }) =>
                     `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700" : "text-white"
+                      isActive ? "text-pink-700 tracking-wide" : "text-white"
                     }`
                   }
                   to={"/wingsinprogress"}
@@ -85,7 +85,7 @@ const App = () => {
                 <NavLink
                   className={({ isActive }) =>
                     `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700" : "text-white"
+                      isActive ? "text-pink-700 tracking-wide" : "text-white"
                     }`
                   }
                   to={"/money-transfer"}
