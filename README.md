@@ -4,4 +4,4 @@ This is my personal portfolio website built using React & Tailwind CSS. It showc
 
 ## View Live
 
-https://faizanejaz.netlify.app/
+https://faizanejaz.com/
