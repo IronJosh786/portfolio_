@@ -7,11 +7,11 @@ export default function ToDo({ heading, description, site, code, tech }) {
         {heading}
       </h2>
       <p className="text-base max-w-[60ch] md:text-lg">{description}</p>
-      <div className="flex flex-wrap gap-4 max-w-[60ch]">
+      <div className="flex flex-wrap gap-2 max-w-[60ch]">
         {tech.map((item, index) => (
           <div
             key={index}
-            className="text-xs md:text-sm text-white bg-pink-700 p-1 rounded-full"
+            className="text-xs md:text-sm text-white bg-pink-700 p-1 px-2 rounded-md"
           >
             {item}
           </div>
