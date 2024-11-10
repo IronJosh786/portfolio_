@@ -17,11 +17,12 @@ const App = () => {
               className="h-6 w-28 md:h-8 md:w-40"
             />
           </Link>
-          <ul className="flex gap-4 items-center mt-2">
+          <div className="flex gap-4 items-center mt-2">
             <Link
               className="cursor-pointer active:scale-95"
               to="mailto: faizanejazshaikh%40gmail%2Ecom"
               target="_blank"
+              aria-label="mail to faizan"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,6 +38,7 @@ const App = () => {
               className="cursor-pointer active:scale-95"
               to="https://github.com/IronJosh786"
               target="_blank"
+              aria-label="visit github profile of faizan"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,19 +54,20 @@ const App = () => {
               className="cursor-pointer text-sm md:text-base bg-white text-[#0D1117] p-1 rounded-md font-medium duration-150 ease-in-out hover:bg-white/70 active:scale-95"
               to="https://drive.google.com/file/d/1wOr-glQNvFuiIwcrV_zhOuDsilbHvSX3/view?usp=sharing"
               target="_blank"
+              aria-label="view resume of faizan"
             >
               Resume
             </Link>
-          </ul>
+          </div>
         </div>
-        <div className="mt-16 md:mt-12 flex flex-1 flex-col items-start lg:flex-row lg:justify-between lg:items-center">
+        <div className="mt-16 md:mt-12 flex flex-1 flex-col justify-center items-start lg:flex-row lg:justify-between lg:items-center">
           <div className="w-full lg:w-3/4">
             <Outlet />
           </div>
           <div className="mt-16 lg:mt-0 flex flex-col justify-between gap-8 lg:w-1/4">
             <div className="flex flex-col gap-8">
               <h3 className="text-base md:text-xl font-medium">Projects</h3>
-              <ul className="flex flex-col gap-4 border-t-2 border-l-2 border-pink-700 rounded-lg p-4">
+              <div className="flex flex-col gap-4 border-t-2 border-l-2 border-pink-700 rounded-lg p-4">
                 <NavLink
                   className={({ isActive }) =>
                     `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
@@ -95,7 +98,7 @@ const App = () => {
                 >
                   Money Transfer
                 </NavLink> */}
-              </ul>
+              </div>
             </div>
             <NavLink
               className={({ isActive }) =>
@@ -103,7 +106,7 @@ const App = () => {
                   isActive ? "text-pink-700" : "text-white"
                 }`
               }
-              to={"/Skills"}
+              to={"/skills"}
             >
               Skills
             </NavLink>
