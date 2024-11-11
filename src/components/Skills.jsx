@@ -440,7 +440,7 @@ export default function Skills() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="md:col-span-2 flex flex-col gap-4">
           <h3 className="font-bold text-xl text-pink-700">
             Shared Technologies
           </h3>
