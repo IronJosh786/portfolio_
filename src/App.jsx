@@ -51,7 +51,7 @@ const App = () => {
               </svg>
             </Link>
             <Link
-              className="cursor-pointer text-sm md:text-base bg-white text-[#0D1117] p-1 rounded-md font-medium duration-150 ease-in-out hover:bg-white/70 active:scale-95"
+              className="cursor-pointer text-sm md:text-base bg-white text-[#0D1117] px-2 py-1 rounded-md font-medium duration-150 ease-in-out hover:bg-white/70 active:scale-95"
               to="https://drive.google.com/file/d/1wOr-glQNvFuiIwcrV_zhOuDsilbHvSX3/view?usp=sharing"
               target="_blank"
               aria-label="view resume of faizan"
