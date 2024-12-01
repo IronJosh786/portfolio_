@@ -60,7 +60,7 @@ const App = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-16 md:mt-12 flex flex-1 flex-col justify-center items-start lg:flex-row lg:justify-between lg:items-center">
+        <div className="mt-16 lg:mt-12 flex flex-1 flex-col justify-center items-start lg:flex-row lg:justify-between lg:items-center">
           <div className="w-full lg:w-3/4">
             <Outlet />
           </div>
@@ -88,18 +88,18 @@ const App = () => {
                 >
                   Wings In Progress
                 </NavLink>
-                {/* <NavLink
-                  className={({ isActive }) =>
-                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700 tracking-wide" : "text-white"
-                    }`
-                  }
-                  to={"/money-transfer"}
-                >
-                  Money Transfer
-                </NavLink> */}
               </div>
             </div>
+            <NavLink
+              className={({ isActive }) =>
+                `text-base md:text-xl font-medium duration-300 underline decoration-pink-700 underline-offset-8 hover:text-pink-700 ${
+                  isActive ? "text-pink-700" : "text-white"
+                }`
+              }
+              to={"/work"}
+            >
+              Work Experience
+            </NavLink>
             <NavLink
               className={({ isActive }) =>
                 `text-base md:text-xl font-medium duration-300 underline decoration-pink-700 underline-offset-8 hover:text-pink-700 ${

@@ -10,7 +10,7 @@ export default function Skills() {
           <ul className="flex gap-4 items-center flex-wrap">
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
@@ -63,7 +63,7 @@ export default function Skills() {
           <ul className="flex gap-4 items-center flex-wrap">
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -84,7 +84,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -106,7 +106,7 @@ export default function Skills() {
           <ul className="flex gap-4 items-center flex-wrap">
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -153,7 +153,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.12em"
                 height="1em"
@@ -180,7 +180,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -203,7 +203,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -229,7 +229,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -253,7 +253,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -284,7 +284,7 @@ export default function Skills() {
           <ul className="flex gap-4 items-center flex-wrap">
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -299,7 +299,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -320,7 +320,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="0.97em"
                 height="1em"
@@ -344,7 +344,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="0.47em"
                 height="1em"
@@ -359,7 +359,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className="h-12 w-12 md:h-16 md:w-16"
+                className="h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
                 height="100"
@@ -374,7 +374,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className="h-12 w-12 md:h-16 md:w-16"
+                className="h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
@@ -393,7 +393,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className="h-12 w-12 md:h-16 md:w-16"
+                className="h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 // width="100"
                 // height="100"
@@ -447,7 +447,7 @@ export default function Skills() {
           <ul className="flex gap-4 items-center flex-wrap">
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className="h-12 w-12 md:h-16 md:w-16"
+                className="h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 // width="100"
                 // height="100"
@@ -462,7 +462,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.27em"
                 height="1em"
@@ -520,7 +520,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
@@ -551,7 +551,7 @@ export default function Skills() {
             </li>
             <li className="flex flex-col gap-4 items-center justify-center justify-self-start">
               <svg
-                className=" h-12 w-12 md:h-16 md:w-16"
+                className=" h-10 w-10 md:h-14 md:w-14"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"

@@ -1,8 +1,13 @@
 import React from "react";
 import App from "./App.jsx";
 import ReactDOM from "react-dom/client";
-import { Skills, Home, ProjectTemplate } from "./components/index.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  Skills,
+  Home,
+  ProjectTemplate,
+  WorkExperience,
+} from "./components/index.js";
 
 const router = createBrowserRouter([
   {
@@ -62,31 +67,10 @@ const router = createBrowserRouter([
           />
         ),
       },
-      // {
-      //   path: "money-transfer",
-      //   element: (
-      //     <ProjectTemplate
-      //       heading={"Money Transfer"}
-      //       description={
-      //         "A sophisticated solution for managing transactions, multimedia assets, and user interactions, promising a seamless and intuitive platform. Harnessing the MERN stack, this application combines MongoDB, Express.js and React.js for a complete full-stack experience. React.js powers the frontend, providing dynamic interfaces and smooth user interactions. Meanwhile, Node.js and Express.js handle the backend operations with MongoDB ensuring robust data storage."
-      //       }
-      //       site={"https://mern-money-transfer.vercel.app/"}
-      //       code={"https://github.com/IronJosh786/MERN-Money-Transfer"}
-      //       tech={[
-      //         "MongoDB",
-      //         "Mongoose",
-      //         "Express.js",
-      //         "React.js",
-      //         "Node.js",
-      //         "Bcrypt",
-      //         "JWT",
-      //         "Cloudinary",
-      //         "Multer",
-      //         "Aggregation Pipeline",
-      //       ]}
-      //     />
-      //   ),
-      // },
+      {
+        path: "work",
+        element: <WorkExperience />,
+      },
       {
         path: "skills",
         element: <Skills />,

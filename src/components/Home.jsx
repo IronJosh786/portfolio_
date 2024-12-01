@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-4 border-l-2 border-pink-700 px-6">
+    <div className="flex flex-col gap-2 border-l-2 border-pink-700 px-6">
       <img
         src="/heroImage.webp"
         alt="Hero Image"

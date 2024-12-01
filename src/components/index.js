@@ -1,5 +1,6 @@
-import ProjectTemplate from './ProjectTemplate'
-import Skills from './Skills'
-import Home from './Home'
+import ProjectTemplate from "./ProjectTemplate";
+import WorkExperience from "./WorkExperience";
+import Skills from "./Skills";
+import Home from "./Home";
 
-export {ProjectTemplate, Skills, Home}
+export { ProjectTemplate, WorkExperience, Skills, Home };
