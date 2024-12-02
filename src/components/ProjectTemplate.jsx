@@ -24,7 +24,7 @@ export default function ToDo({ heading, description, site, code, tech }) {
           <Link
             to={code}
             target="_blank"
-            className="text-xs md:text-sm flex gap-2"
+            className="text-xs md:text-sm flex gap-2 items-center"
           >
             Source
             <svg
@@ -43,7 +43,7 @@ export default function ToDo({ heading, description, site, code, tech }) {
             <Link
               to={site}
               target="_blank"
-              className="text-xs md:text-sm flex gap-2"
+              className="text-xs md:text-sm flex gap-2 items-center"
             >
               Demo{" "}
               <svg
