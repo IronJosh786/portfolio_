@@ -67,11 +67,11 @@ const App = () => {
           <div className="mt-16 lg:mt-0 flex flex-col justify-between gap-8 lg:w-1/4">
             <div className="flex flex-col gap-8">
               <h3 className="text-base md:text-xl font-medium">Projects</h3>
-              <div className="flex flex-col gap-4 border-t-2 border-l-2 border-pink-700 rounded-lg p-4">
+              <div className="flex flex-col gap-4 border-t-2 border-l-2 border-pink-700 p-4 rounded-l-md rounded-b-none">
                 <NavLink
                   className={({ isActive }) =>
-                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700 tracking-wide" : "text-white"
+                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-300 hover:text-pink-700 ' ${
+                      isActive ? "text-pink-700" : "text-white"
                     }`
                   }
                   to={"/socialsphere"}
@@ -80,8 +80,8 @@ const App = () => {
                 </NavLink>
                 <NavLink
                   className={({ isActive }) =>
-                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-500 ease-in-out tracking-tighter hover:tracking-wide hover:text-pink-700' ${
-                      isActive ? "text-pink-700 tracking-wide" : "text-white"
+                    `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-300 hover:text-pink-700 ' ${
+                      isActive ? "text-pink-700" : "text-white"
                     }`
                   }
                   to={"/wingsinprogress"}

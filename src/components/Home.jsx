@@ -18,10 +18,10 @@ export default function Home() {
         from Mumbai.
       </h3>
       <p className="max-w-[50ch] xl:max-w-[60ch] text-base md:text-lg">
-        A passionate developer focused on crafting visually stunning,
-        pixel-perfect and interactive websites. With expertise in frontend and
-        backend technologies, I specialize in seamless user experiences,
-        delivering innovative, full-stack solutions.{" "}
+        Focused on crafting visually stunning, pixel-perfect and interactive
+        websites. With expertise in frontend and backend technologies, I
+        specialize in seamless user experiences, delivering innovative,
+        full-stack solutions.{" "}
       </p>
       <Link
         id="send_btn"

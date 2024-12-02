@@ -20,7 +20,7 @@ export default function ToDo({ heading, description, site, code, tech }) {
         ))}
       </div>
       <div className="flex gap-8">
-        <div className="flex gap-2 items-center border-b-2 border-pink-700 duration-500 ease-in-out tracking-tighter hover:tracking-wide">
+        <div className="flex gap-2 items-center border-b-2 border-pink-700 duration-300 hover:text-pink-700">
           <Link
             to={code}
             target="_blank"
@@ -41,7 +41,7 @@ export default function ToDo({ heading, description, site, code, tech }) {
           </Link>
         </div>
         {site ? (
-          <div className="flex gap-2 items-center border-b-2 border-pink-700 duration-500 ease-in-out tracking-tighter hover:tracking-wide">
+          <div className="flex gap-2 items-center border-b-2 border-pink-700 duration-300 hover:text-pink-700">
             <Link
               to={site}
               target="_blank"
