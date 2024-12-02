@@ -67,7 +67,7 @@ const App = () => {
           <div className="mt-16 lg:mt-0 flex flex-col justify-between gap-8 lg:w-1/4">
             <div className="flex flex-col gap-8">
               <h3 className="text-base md:text-xl font-medium">Projects</h3>
-              <div className="flex flex-col gap-4 border-t-2 border-l-2 border-pink-700 p-4 rounded-l-md rounded-b-none">
+              <div className="flex flex-col gap-4 border-t-2 border-l-2 border-pink-700 p-4 rounded-tl-md">
                 <NavLink
                   className={({ isActive }) =>
                     `text-sm md:text-base underline decoration-pink-700 underline-offset-8 duration-300 hover:text-pink-700 ' ${
