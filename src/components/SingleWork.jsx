@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const SingleWork = ({ logo, website, name, title, description, from, to }) => {
   return (
