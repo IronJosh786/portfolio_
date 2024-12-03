@@ -1,7 +1,7 @@
 import React from "react";
-import SingleWork from "./SingleWork";
+import SingleWork from "../components/SingleWork";
 
-const WorkExperience = () => {
+export default function Work() {
   return (
     <div className="flex flex-col gap-4 border-l-2 border-pink-700 px-6">
       <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">
@@ -22,6 +22,4 @@ const WorkExperience = () => {
       </div>
     </div>
   );
-};
-
-export default WorkExperience;
+}

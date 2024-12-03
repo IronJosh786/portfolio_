@@ -1,8 +1,8 @@
-import "./App.css";
+import "../App.css";
 import React from "react";
 import { Link, NavLink, Outlet } from "react-router";
 
-const App = () => {
+export default function App() {
   return (
     <>
       <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] h-dvh flex flex-col">
@@ -128,6 +128,4 @@ const App = () => {
       </div>
     </>
   );
-};
-
-export default App;
+}
