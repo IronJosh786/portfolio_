@@ -1,5 +1,3 @@
-import "../App.css";
-import React from "react";
 import { Link, NavLink, Outlet } from "react-router";
 
 export default function App() {
@@ -74,7 +72,7 @@ export default function App() {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
-                  to={"/socialsphere"}
+                  to={"/projects/socialsphere"}
                 >
                   Social Sphere
                 </NavLink>
@@ -84,7 +82,7 @@ export default function App() {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
-                  to={"/wingsinprogress"}
+                  to={"/projects/wingsinprogress"}
                 >
                   Wings In Progress
                 </NavLink>

@@ -4,8 +4,9 @@ import { projects } from "../data/projects";
 
 export default function Projects() {
   const location = useLocation();
+  const paths = location.pathname.split("/");
   const { heading, description, site, code, tech } =
-    projects[location.pathname.split("/")[1]];
+    projects[paths[paths.length - 1]];
 
   return (
     <div className="flex flex-col gap-4 border-l-2 border-pink-700 px-6">

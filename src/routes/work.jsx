@@ -1,4 +1,3 @@
-import React from "react";
 import SingleWork from "../components/SingleWork";
 
 export default function Work() {
