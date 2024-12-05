@@ -10,10 +10,10 @@ type Module = typeof import("../projects.js")
 
 export type Info = {
   parents: [Parent0, Parent1],
-  id: "routes/projects"
+  id: "wings"
   file: "./routes/projects.jsx"
-  path: "projects/*"
-  params: {"*": string} & { [key: string]: string | undefined }
+  path: "projects/wingsinprogress"
+  params: {} & { [key: string]: string | undefined }
   module: Module
   loaderData: T.CreateLoaderData<Module>
   actionData: T.CreateActionData<Module>

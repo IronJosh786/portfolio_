@@ -3,7 +3,7 @@ import { Link, NavLink, Outlet } from "react-router";
 export default function App() {
   return (
     <>
-      <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] h-dvh flex flex-col">
+      <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] min-h-dvh flex flex-col">
         <div className="flex justify-between items-center">
           <Link
             to={"/"}

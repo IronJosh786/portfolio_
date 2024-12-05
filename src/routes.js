@@ -8,14 +8,19 @@ export default [
         file: "./routes/home.jsx",
       },
       {
-        path: "projects/*",
+        path: "projects/socialsphere",
         file: "./routes/projects.jsx",
-        // children: [
-        //   {
-        //     path: "*",
-        //     file: "./routes/projects.jsx",
-        //   },
-        // ],
+        id: "social",
+      },
+      {
+        path: "projects/wingsinprogress",
+        file: "./routes/projects.jsx",
+        id: "wings",
+      },
+      {
+        path: "projects/*",
+        file: "./routes/not-found.jsx",
+        id: "project-not-found",
       },
       {
         path: "work",
@@ -25,10 +30,10 @@ export default [
         path: "skills",
         file: "./routes/skills.jsx",
       },
-      //   {
-      //     path: "*",
-      //     file: "./routes/home.jsx",
-      //   },
+      {
+        path: "*",
+        file: "./routes/not-found.jsx",
+      },
     ],
   },
 ];
