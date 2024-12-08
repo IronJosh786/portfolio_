@@ -127,7 +127,7 @@ export default function App() {
           </div>
         </div>
         <footer className="tracking-wider p-1 mt-8 text-xs text-center">
-          FAIZAN EJAZ © {new Date().getFullYear()}
+          FAIZAN EJAZ © 2024
         </footer>
       </div>
     </>
