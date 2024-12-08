@@ -7,6 +7,7 @@ export default function App() {
         <div className="flex justify-between items-center">
           <Link
             to={"/"}
+            prefetch="viewport"
             className="text-xl md:text-3xl font-bold cursor-pointer mt-2 text-pink-700"
           >
             <img
@@ -73,6 +74,7 @@ export default function App() {
                     }`
                   }
                   to={"/projects/socialsphere"}
+                  prefetch="viewport"
                 >
                   Social Sphere
                 </NavLink>
@@ -83,6 +85,7 @@ export default function App() {
                     }`
                   }
                   to={"/projects/wingsinprogress"}
+                  prefetch="viewport"
                 >
                   Wings In Progress
                 </NavLink>
@@ -95,6 +98,7 @@ export default function App() {
                 }`
               }
               to={"/work"}
+              prefetch="viewport"
             >
               Work Experience
             </NavLink>
@@ -105,6 +109,7 @@ export default function App() {
                 }`
               }
               to={"/skills"}
+              prefetch="viewport"
             >
               Skills
             </NavLink>
@@ -115,6 +120,7 @@ export default function App() {
                 }`
               }
               to={""}
+              prefetch="viewport"
             >
               Home
             </NavLink>
