@@ -15,6 +15,6 @@
 # Set immutable caching for static files, because they have fingerprinted filenames
 
 [[headers]]
-  for = "/assets/*"
+  for = "/*"
   [headers.values]
     "Cache-Control" = "public, max-age=2592000, immutable"
