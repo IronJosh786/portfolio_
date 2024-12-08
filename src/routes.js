@@ -8,19 +8,8 @@ export default [
         file: "./routes/home.jsx",
       },
       {
-        path: "projects/socialsphere",
+        path: "projects/:id",
         file: "./routes/projects.jsx",
-        id: "social",
-      },
-      {
-        path: "projects/wingsinprogress",
-        file: "./routes/projects.jsx",
-        id: "wings",
-      },
-      {
-        path: "projects/*",
-        file: "./routes/not-found.jsx",
-        id: "project-not-found",
       },
       {
         path: "work",

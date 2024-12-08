@@ -1,12 +1,9 @@
 import { Link } from "react-router";
-import { useLocation } from "react-router";
 import { projects } from "../data/projects";
 
-export default function Projects() {
-  const location = useLocation();
-  const paths = location.pathname.split("/");
-  const { heading, description, site, code, tech } =
-    projects[paths[paths.length - 1]];
+export default function Projects({ params }) {
+  const id = params?.id;
+  const { heading, description, site, code, tech } = projects[id];
 
   return (
     <div className="flex flex-col gap-4 border-l-2 border-pink-700 px-6">
