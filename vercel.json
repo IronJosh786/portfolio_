@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=2592000, immutable"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/",
+      "status": 200
+    }
+  ],
+  "build": {
+    "env": {
+      "NODE_VERSION": "20"
+    }
+  },
+  "outputDirectory": "build"
+}
