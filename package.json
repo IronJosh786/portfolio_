@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "react-router dev",
-    "build": "react-router build && node netlify/prepare.js",
-    "start": "netlify serve",
+    "build": "react-router build",
+    "start": "react-router-serve build/server/index.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@netlify/functions": "^2.8.2",
     "@react-router/node": "^7.0.2",
+    "@react-router/serve": "^7.0.2",
     "isbot": "^5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
