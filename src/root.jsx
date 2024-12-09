@@ -11,7 +11,7 @@ export const meta = () => [
   {
     property: "og:image",
     content:
-      "https://res.cloudinary.com/drkm6sltd/image/upload/v1733761264/Yl9yZ2I6REJFREZCL2NfcGFkLGJfZ2VuX2ZpbGwsd18xMjAwLGhfNjMw-Photoroom_ond0xr_b_rgb_DBEDFB_zoyrvd.webp",
+      "https://res.cloudinary.com/drkm6sltd/image/upload/b_rgb:DBEDFB/v1733762012/Yl9yZ2I6REJFREZCL2NfcGFkLGJfZ2VuX2ZpbGwsd18xMjAwLGhfNjMw-Photoroom_d12owa.png",
   },
 ];
 
