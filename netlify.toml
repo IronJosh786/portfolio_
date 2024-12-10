@@ -2,3 +2,19 @@
   from = "/*"
   to = "/"
   status = 200
+
+[build]
+  node_version = "20"
+  command = "npm run build"
+  publish = "build/client"
+
+[dev]
+  command = "npm run dev"
+  framework = "vite"
+
+# Set immutable caching for static files, because they have fingerprinted filenames
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    "Cache-Control" = "public, max-age=2592000, immutable"

@@ -1,14 +1,13 @@
-import "./App.css";
-import React from "react";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router";
 
-const App = () => {
+export default function App() {
   return (
     <>
-      <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] h-dvh flex flex-col">
+      <div className="w-10/12 max-w-6xl m-auto bg-[#0D1117] min-h-dvh flex flex-col">
         <div className="flex justify-between items-center">
           <Link
             to={"/"}
+            prefetch="viewport"
             className="text-xl md:text-3xl font-bold cursor-pointer mt-2 text-pink-700"
           >
             <img
@@ -74,7 +73,8 @@ const App = () => {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
-                  to={"/socialsphere"}
+                  to={"/projects/socialsphere"}
+                  prefetch="viewport"
                 >
                   Social Sphere
                 </NavLink>
@@ -84,7 +84,8 @@ const App = () => {
                       isActive ? "text-pink-700" : "text-white"
                     }`
                   }
-                  to={"/wingsinprogress"}
+                  to={"/projects/wingsinprogress"}
+                  prefetch="viewport"
                 >
                   Wings In Progress
                 </NavLink>
@@ -97,6 +98,7 @@ const App = () => {
                 }`
               }
               to={"/work"}
+              prefetch="viewport"
             >
               Work Experience
             </NavLink>
@@ -107,6 +109,7 @@ const App = () => {
                 }`
               }
               to={"/skills"}
+              prefetch="viewport"
             >
               Skills
             </NavLink>
@@ -117,17 +120,16 @@ const App = () => {
                 }`
               }
               to={""}
+              prefetch="viewport"
             >
               Home
             </NavLink>
           </div>
         </div>
         <footer className="tracking-wider p-1 mt-8 text-xs text-center">
-          FAIZAN EJAZ © {new Date().getFullYear()}
+          FAIZAN EJAZ © 2024
         </footer>
       </div>
     </>
   );
-};
-
-export default App;
+}
