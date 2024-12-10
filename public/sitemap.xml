@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://faizanejaz.com/</loc>
+    <loc>https://faizanejaz.com</loc>
+  </url>
+  <url>
+    <loc>https://faizanejaz.com/work</loc>
   </url>
   <url>
     <loc>https://faizanejaz.com/skills</loc>
   </url>
   <url>
-    <loc>https://faizanejaz.com/socialsphere</loc>
+    <loc>https://faizanejaz.com/projects/socialsphere</loc>
   </url>
   <url>
-    <loc>https://faizanejaz.com/wingsinprogress</loc>
+    <loc>https://faizanejaz.com/projects/wingsinprogress</loc>
   </url>
 </urlset>
