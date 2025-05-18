@@ -7,7 +7,6 @@ export default function App() {
         <div className="flex justify-between items-center">
           <Link
             to={"/"}
-            prefetch="viewport"
             className="text-xl md:text-3xl font-bold cursor-pointer mt-2 text-gray-300"
           >
             faizan
@@ -68,7 +67,6 @@ export default function App() {
                   }`
                 }
                 to={""}
-                prefetch="viewport"
               >
                 Intro
               </NavLink>
@@ -79,7 +77,6 @@ export default function App() {
                   }`
                 }
                 to={"/skills"}
-                prefetch="viewport"
               >
                 Skills
               </NavLink>
@@ -90,7 +87,6 @@ export default function App() {
                   }`
                 }
                 to={"/work"}
-                prefetch="viewport"
               >
                 Work
               </NavLink>
@@ -107,7 +103,6 @@ export default function App() {
                     }`
                   }
                   to={"/projects/quizmaster"}
-                  prefetch="viewport"
                 >
                   Quiz Master
                 </NavLink>
@@ -118,7 +113,6 @@ export default function App() {
                     }`
                   }
                   to={"/projects/socialsphere"}
-                  prefetch="viewport"
                 >
                   Social Sphere
                 </NavLink>
@@ -129,7 +123,6 @@ export default function App() {
                     }`
                   }
                   to={"/projects/wingsinprogress"}
-                  prefetch="viewport"
                 >
                   Wings In Progress
                 </NavLink>
