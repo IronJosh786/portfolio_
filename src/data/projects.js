@@ -1,4 +1,25 @@
 export const projects = {
+  quizmaster: {
+    heading: "Quiz Master",
+    description:
+      "Real-time multiplayer web app that lets users join or host quiz rooms and compete by answering AI-generated questions. It offers instant synchronization across clients, responsive design for all devices, and a fast-paced gameplay experience. Users can view scores, restart games, and enjoy seamless group interactions in a low-latency environment.",
+    site: "https://quiz.faizanejaz.com/",
+    code: "https://github.com/IronJosh786/multiplayer-quiz-game",
+    tech: [
+      "WebSockets",
+      "Express.js",
+      "Passport-JWT",
+      "Postgres",
+      "Prisma",
+      "React.js",
+      "Node.js",
+      "Typescript",
+      "Zod",
+      "Shadcn-UI",
+      "Tailwind CSS",
+      "Cloudflare Workers",
+    ],
+  },
   socialsphere: {
     heading: "Social Sphere",
     description:

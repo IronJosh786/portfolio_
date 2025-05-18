@@ -39,7 +39,7 @@ export default function Root() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-[#0D1117] text-white">
+      <body className="bg-[#0D1117] text-gray-300">
         <Outlet />
         <ScrollRestoration />
         <Scripts />

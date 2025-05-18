@@ -2,30 +2,29 @@ import { Link } from "react-router";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-2 border-l-2 border-pink-700 px-6">
+    <div className="flex flex-col gap-2 border-l-2 border-sky-500 pl-6 lg:pr-6">
       <img
         src="/heroImage.webp"
         alt="Hero Image"
-        className="h-40 w-40 md:h-60 md:w-60 rounded-full"
+        className="h-32 w-32 md:h-40 md:w-40 rounded-xl mb-2"
       />
       <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
         Hi 👋 I'm Faizan
       </h2>
       <h3 className="text-xl md:text-3xl font-medium tracking-tight">
-        <span className="font-bold text-pink-700 selection:bg-pink-700 selection:text-white">
-          FULL STACK DEVELOPER
+        <span className="font-bold text-sky-500 selection:bg-sky-500 selection:text-gray-300">
+          Software Engineer
         </span>{" "}
         from Mumbai.
       </h3>
       <p className="max-w-[50ch] xl:max-w-[60ch] text-base md:text-lg">
-        Focused on crafting visually stunning, pixel-perfect and interactive
-        websites. With expertise in frontend and backend technologies, I
-        specialize in seamless user experiences, delivering innovative,
-        full-stack solutions.{" "}
+        Focused on crafting visually stunning, and interactive applications.
+        With expertise in frontend and backend technologies, I specialize in
+        seamless user experiences, delivering innovative, full-stack solutions.{" "}
       </p>
       <Link
         id="send_btn"
-        className="bg-pink-700 duration-150 ease-in-out hover:bg-pink-700/70 w-max"
+        className="mt-1 bg-sky-700 duration-150 ease-in-out hover:bg-sky-700/70 w-max"
         to="mailto: faizanejazshaikh%40gmail%2Ecom"
       >
         <svg

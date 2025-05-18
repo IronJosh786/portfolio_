@@ -10,11 +10,7 @@ const SingleWork = ({ logo, website, name, title, description, from, to }) => {
           className="shrink-0 h-12 w-12"
           aria-label="visit company"
         >
-          <img
-            src={logo}
-            className="h-12 w-12 rounded-full"
-            alt="company-logo"
-          />
+          <img src={logo} className="h-12 w-12 rounded-md" alt="company-logo" />
         </Link>
         <div className="flex flex-col w-full">
           <div>
@@ -28,14 +24,16 @@ const SingleWork = ({ logo, website, name, title, description, from, to }) => {
             </Link>
             <p className="text-sm">{title}</p>
           </div>
-          <div className="text-sm text-gray-400">
+          <div className="text-sm text-[#a1a1a1]">
             {from} - {to}
           </div>
         </div>
       </div>
-      <div className="text-sm max-w-[50ch] xl:max-w-[60ch] md:text-base">
-        {description}
-      </div>
+      <ul className="ml-4 text-sm max-w-[50ch] xl:max-w-[60ch] md:text-base list-disc">
+        {description.map((task, index) => (
+          <li key={index}>{task}</li>
+        ))}
+      </ul>
     </div>
   );
 };
