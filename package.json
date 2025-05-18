@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "react-router dev",
     "build": "react-router build",
+    "postbuild": "cp build/client/404/index.html build/client/404.html",
     "start": "react-router-serve build/server/index.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
