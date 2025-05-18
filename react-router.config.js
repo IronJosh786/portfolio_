@@ -6,8 +6,10 @@ export default {
       "/",
       "/work",
       "/skills",
+      "/projects/quizmaster",
       "/projects/socialsphere",
       "/projects/wingsinprogress",
+      "/not-found",
     ];
   },
 };
