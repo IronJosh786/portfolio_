@@ -19,10 +19,10 @@ export default [
         path: "skills",
         file: "./routes/skills.jsx",
       },
-      {
-        path: "*",
-        file: "./routes/not-found.jsx",
-      },
     ],
+  },
+  {
+    path: "*",
+    file: "./routes/not-found.jsx",
   },
 ];
