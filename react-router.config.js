@@ -9,7 +9,7 @@ export default {
       "/projects/quizmaster",
       "/projects/socialsphere",
       "/projects/wingsinprogress",
-      "/not-found",
+      "/404",
     ];
   },
 };
